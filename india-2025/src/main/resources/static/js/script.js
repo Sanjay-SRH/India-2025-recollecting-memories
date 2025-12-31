@@ -98,7 +98,7 @@ function startCountdown() {
     const portalButton = document.getElementById('portal-button');
     const gate = document.getElementById('new-year-gate');
     
-    const targetDate = new Date('December 1, 2023 00:00:00').getTime();
+    const targetDate = new Date('January 1, 2026 00:00:00').getTime();
     
     gate.style.display = 'block';
 
