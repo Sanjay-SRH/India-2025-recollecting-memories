@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>India 2025: The Recap </title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href = "https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&display=swap" rel = "stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <h1 class = "comic-title">INDIA 2025</h1>
+        <p class = "hero-subtitle">A Year of Resilience & Triumph</p>
+    </header>
+
+    <div id="story-container"></div>
+
+    <div id = "new-year-gate" style = "display:none; text-align: center; padding: 50px;">
+        <h1 class = "comic-title">THE 2026 PORTAL</h1>
+
+        <div id = "countdown-timer" style = "font-size: 3rem; margin: 20px 0; font-family: 'Bangers';"></div>
+
+        <button id = "portal-button" onclick = "openPortal()" style = "background: red;color: white; border: 5px solid black; padding: 20px 40px; font-size: 2rem; cursor: pointer; border-radius: 10px; font-family: 'Bangers'; display: none;">
+            OPEN 2026 PORTAL
+        </button>
+
+        <div id = "skyline-container" style = "position: relative; width: 100%; height: 400px; margin-top: 50px; background: #001529; display: none;">
+            <canvas id = "fireworks-canvas" style = "position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></canvas>
+            <div class = "skyline-silhouette" style = "position: absolute; bottom: 0; width: 150px; background: url('http://img.icons8.com/ios-filled/100/ffffff/taj-mahal.png') report-x bottom; opacity: 0.8;"></div>
+        </div>
+    </div>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
